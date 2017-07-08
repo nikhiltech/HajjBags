@@ -1,3 +1,28 @@
-.navbar-brand {    
-    margin-right: 0 !important;    
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+
+
+/* DEMO example styles for logo image */
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
+  padding: 7px 14px;
+}
+
+@media only screen and (min-width: 768px) {
+    #left {
+        position: absolute; 
+        left: 30%;
+    }
+  
+    #right {
+        position: absolute; 
+        right: 30%;
+    }
 }
