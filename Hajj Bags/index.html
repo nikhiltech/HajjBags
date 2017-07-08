@@ -4,22 +4,46 @@
 	<title>Hajj Bags</title>
 	<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
 	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.4/angular-material.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS/styles.css">
 
 	<script type="text/javascript" src="JS/jquery-3.2.1.min.js"></script>
+	<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+	<script type="text/javascript" src="JS/bootstrap.min.js"></script>
 	<script type="text/javascript" src="JS/angular.min.js"></script>
 	<script src="JS/angular-animate.min.js"></script>
-    <script src="JS/angular-aria.min.js"></script>
+	<script src="JS/angular-aria.min.js"></script>
 
 
-    <!-- AngularJS Material Javascript now available via Google CDN; version 1.1.4 used here -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.4/angular-material.min.js">
-    	
-    </script>
-    <script src="JS/app.js"></script>
+	<!-- AngularJS Material Javascript now available via Google CDN; version 1.1.4 used here -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.4/angular-material.min.js">
+
+	</script>
+	<script src="JS/app.js"></script>
 
 </head>
 <body ng-controller="HajjAppController">
-{{name}}
+	<header class="">
+		
+		<nav class="navbar navbar-toggleable-md navbar-light ">
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+					<a class="navbar-brand active  " href="#">Hajj Bags</a>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item ">
+						<a class="nav-link" href="#">Products <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact Us</a>
+					</li>     
+				</ul>    
+			</div>
+		</nav>
+	</header>
 
 </body>
 </html>
